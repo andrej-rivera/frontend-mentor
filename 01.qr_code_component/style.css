@@ -1,0 +1,71 @@
+.attribution { padding-top: auto; font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*, html {
+    box-sizing:border-box;
+
+    --slate-900: #1F314F;
+    --slate-500: #68778D;
+    --slate-300: #D5E1EF;
+
+
+}
+
+h1 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+body {
+    background-color: var(--slate-300);
+}
+
+.centerer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-component {
+    background-color: white;
+    width: 320px;
+
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+
+    border-radius: 20px;
+
+}
+
+.qr__title {
+    color: var(--slate-900);
+    line-height: 1.2;
+    font-size: 22px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.qr__text {
+    color: var(--slate-500);
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    font-size: 15px;
+    text-align: center;
+
+    margin: 20px 0;
+}
