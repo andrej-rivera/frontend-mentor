@@ -53,7 +53,7 @@ h1, p {
 
 .card:hover {
     cursor: pointer;
-    
+
     .card__text--one {
         color: var(--yellow);
     }
@@ -66,8 +66,8 @@ h1, p {
 
 .card__image--author {
     width: 32px;
-
 }
+
 
 .card__author {
     display: flex;
@@ -120,7 +120,9 @@ h1, p {
 .card__text--three-bold {
     font-size: 0.875rem;
     font-weight: 900;
+    align-self: center;
 
+    margin: 0;
 
 }
 
